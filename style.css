@@ -1,0 +1,119 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #2c2c2c;
+    line-height: 1.7;
+    max-width: 5000px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* Headings */
+
+h1 {
+    text-align: center;
+    color: #eff4f8;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+nav {
+   background-color: #a6caef;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+h2 {
+    color: #0f4c81;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #173e60;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #6181b9;
+}
+
+h4 {
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Images */
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+/* Project sections */
+
+.project {
+    background: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+}
+
+/* Footer */
+
+h1:last-of-type {
+    margin-top: 60px;
+    text-align: center;
+    color: #666;
+
+}
+
+/* Project sections */
+
+.project {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px;
+    margin: 40px 0;
+    border-radius: 20px;
+
+    /* Fire box effect */
+    border: 2px solid rgba(15, 76, 129, 0.15);
+    box-shadow:
+        0 10px 30px rgba(15, 76, 129, 0.15),
+        0 0 20px rgba(97, 129, 185, 0.15);
+
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 20px 40px rgba(15, 76, 129, 0.25),
+        0 0 30px rgba(97, 129, 185, 0.3);
+}
+
